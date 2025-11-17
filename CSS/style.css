@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+.section-head{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-lead{
+    font-size: 20px;
+    text-align: center;
+    /* margin-bottom: 10px; */
+    font-style: italic;
+}
+
+body{
+   font-family: "Open Sans", sans-serif; 
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-links{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.nav-flex{
+    margin: 5px;
+}
+    
+.kar{
+   height: 550px;
+   background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/Kempegowda.png');
+   border-radius: 10px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: auto;
+   color: #ffffff;
+   text-align: center;
+   /* padding-top: 100px; */
+   margin:1px;
+   flex-wrap: wrap;
+}
+
+.kar-title{
+    /* margin-top: 250px; */
+    font-size: 65px;
+
+}
+
+.kar-lead{
+    /* margin-top: 260px; */
+    font-size: 25px;
+
+}
+
+.ben{
+    /* width: 3000px; */
+   height: 550px;
+   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/vidhansoudha.jpg);
+   border-radius: 10px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: auto;
+   color: #ffffff;
+   text-align: center;
+   /* padding-top: 100px; */
+   margin:1px;
+   flex-wrap: wrap;
+   
+}
+
+.ben-title{
+    font-size: 65px;
+
+}
+
+.ben-lead{
+    font-size: 25px;
+
+}
+
+.ben-btn{
+    background: #ffffff;
+    color: #000000;
+    padding: 10px;
+    display: inline-block;
+    margin:1px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.ben-btn:hover{
+    background-color: rgb(21, 109, 186);
+    transform: scale(1.05);
+}
+
+.btn-pri:hover{
+    background-color: rgb(13, 227, 73);
+    transform: scale(1.05);
+}
+
+.about{
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.abt-img img{
+    width: 100%;
+    border: 2px solid #43e929;
+    border-radius: 15px;
+    width: 300px;
+
+}
+
+.abt-img{
+    margin-top:5px;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.abt-img{
+    margin: auto;
+}
+
+.abt-layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    justify-content:space-around;
+    margin-left: 20px;
+    padding-left: 30px;
+}
+
+.abt-text{
+    line-height: 1.8;
+    align-items:center;
+    font-size: 16px;
+}
+
+.travel img{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.travel{
+    
+    background: #27bdbae6;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 20px;
+
+}
+
+.travel-flex{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+
+}
+
+.travel-grid{
+   
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.life-flex {
+    padding: 35px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    margin-top: 20px;
+    text-align: center;    
+}
+
+.life-flex img{
+    width: 100%;
+    border: 2px solid #43e929;
+    border-radius: 15px;
+    width: 300px;
+}
+
+.life-grid {
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dis-flex{
+    padding: 35px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    margin-top: 50px;
+    text-align: center;    
+
+}
+
+.dis-flex img{
+    width: 100%;
+    border: 2px solid #43e929;
+    border-radius: 15px;
+    width: 300px;
+}
+
+.display-grid{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.places-flex{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.pla-grid img{
+    width: 100%;
+    border: 2px solid #43e929;
+    border-radius: 15px;
+    width: 300px;
+}
+
+.foo-grid{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.food-grid img{
+    width: 100%;
+    border: 2px solid #43e929;
+    border-radius: 15px;
+    width: 300px;
+}
+
+.hotel{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/hotel.webp);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+    display: grid;
+    margin-bottom: 100px;
+}
+
+.tech-first{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/tech.webp);
+    height: 450px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    display: grid;
+}
+
+.te-grid{
+    justify-content: center;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.tech-grid img{
+    width: 100%;
+    border: 2px solid #43e929;
+    border-radius: 15px;
+    width: 300px;
+}
+
+.contact{
+    margin-top: 10px ;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.google{
+    background: #0dd158be;
+    color: #000000;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.google:hover{
+    background-color: aliceblue;
+    transform: scale(1.05);
+}
+
+.contact{
+    margin-top: 10px;
+    background: #c54c96;
+    padding: 25px;
+}
+
+.contact-card{
+
+    max-width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 650px;
+    margin: auto;
+
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: inherit;
+}
+
+.btn-pri{
+    background-color: rgb(47, 58, 210);
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+footer{
+    background: #000000;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+@media screen and (max-width:760px){
+    .abt-layout{
+        grid-template-columns: 1fr;
+    }
+
+    .travel-flex{
+      flex-direction: column;  
+    }
+
+    .travel-grid{
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .life-flex{
+        flex-direction: column;  
+    }
+
+    .life-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .dis-flex{
+        flex-direction: column;  
+    }
+
+    .display-grid{
+        grid-template-columns: repeat(2, 1fr);  
+    }
+
+    .places-flex{
+        flex-direction: column;  
+    }
+
+    .pla-grid{
+         grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+@media screen and (max-width:540px){
+    .navbar{
+        padding-bottom: 30px;
+    }
+    .navbar img{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .navbar-links{
+        margin: auto;
+    }
+
+    .kar-title{
+        font-size: 55px;
+    }
+    .kar-lead{
+        font-size: 20px;
+    }
+
+    .ben-title{
+        font-size: 55px;
+    }
+
+    .ben-lead{
+        font-size: 20px;
+    }
+}
